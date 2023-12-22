@@ -22,6 +22,8 @@ import static io.restassured.RestAssured.given;
 
 import static org.hamcrest.Matchers.lessThan;
 
+
+public class GetWeather10DayTest extends AccuweatherAbstractTest{
 @Test
 
    void testGetResponse() {
@@ -39,6 +41,6 @@ import static org.hamcrest.Matchers.lessThan;
        System.out.println(weather);
 
    }
-
+}
 
 
