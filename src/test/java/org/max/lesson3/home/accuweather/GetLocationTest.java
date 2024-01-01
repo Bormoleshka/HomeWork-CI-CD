@@ -14,6 +14,9 @@ import static io.restassured.RestAssured.given;
 public class GetLocationTest extends AccuweatherAbstractTest{
 
     @Test
+    @Owner("Алексей Бормотов")
+
+    @Severity(SeverityLevel.NORMAL)
     @DisplayName("тест на проверку запроса по геопозиции")
     void getLocation_search_returnMoscow() {
 
