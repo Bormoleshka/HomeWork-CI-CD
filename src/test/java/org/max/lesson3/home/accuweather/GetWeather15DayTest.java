@@ -1,5 +1,9 @@
 import io.restassured.http.Method;
 
+import io.qameta.allure.*;
+
+import org.hamcrest.Matchers;
+
 import org.junit.jupiter.api.Assertions;
 
 import org.junit.jupiter.api.Test;
@@ -22,10 +26,24 @@ import static io.restassured.RestAssured.given;
 
 import static org.hamcrest.Matchers.lessThan;
 
+@Epic(value = "Тестирование API https://developer.accuweather.com/accuweather-forecast-api/apis")
+
+@Feature(value = "Домашняя работа 6")
+
 
 
 public class GetWeather15DayTest extends AccuweatherAbstractTest{
-  @Test
+@Test
+
+@Link("http://dataservice.accuweather.com/forecasts/v1/daily/15day/{locationKey}")
+
+@Owner("Алексей Бормотов")
+
+@Severity(SeverityLevel.NORMAL)
+
+@DisplayName("GetWeather15DayTest")
+
+@Description("GET Weather 15 Days")
 
    void testGetResponse15() {
 
