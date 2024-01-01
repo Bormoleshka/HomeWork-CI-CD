@@ -8,10 +8,13 @@ import org.max.lesson3.home.accuweather.location.Location;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
+@Epic(value = "Тестирование API http://dataservice.accuweather.com")
+@Feature(value = "Домашняя Работа 6")
 
 public class GetLocationTest extends AccuweatherAbstractTest{
 
     @Test
+    @DisplayName("тест на проверку запроса по геопозиции")
     void getLocation_search_returnMoscow() {
 
         List<Location> response = given()
