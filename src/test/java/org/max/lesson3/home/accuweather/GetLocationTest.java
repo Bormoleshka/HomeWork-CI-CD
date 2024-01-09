@@ -1,7 +1,9 @@
 package org.max.lesson3.home.accuweather;
 
+import io.qameta.allure.*;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.max.lesson3.home.accuweather.location.Location;
 

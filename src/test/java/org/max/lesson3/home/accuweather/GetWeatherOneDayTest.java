@@ -7,11 +7,11 @@ import org.hamcrest.Matchers;
 
 import org.junit.jupiter.api.Assertions;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import seminar.accuweather.location.Location;
-
-import seminar.accuweather.weather.Weather;
+import org.max.lesson3.home.accuweather.weather.Weather;
+import org.max.lesson3.home.accuweather.location.Location;
 
 
 

@@ -1,27 +1,13 @@
 package org.max.lesson3.home.accuweather;
-import io.restassured.http.Method;
+
 import io.qameta.allure.*;
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
-
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import seminar.accuweather.location.Location;
-
-import seminar.accuweather.weather.Weather;
-
-
-
-import java.util.HashMap;
-
-import java.util.List;
-
-import java.util.Map;
-
-
+import org.max.lesson3.home.accuweather.weather.Weather;
+import org.max.lesson3.home.accuweather.location.Location;
 
 import static io.restassured.RestAssured.given;
-
 import static org.hamcrest.Matchers.lessThan;
 @Epic(value = "Тестирование API https://developer.accuweather.com/accuweather-forecast-api/apis")
 @Feature(value = "Домашняя работа 6")

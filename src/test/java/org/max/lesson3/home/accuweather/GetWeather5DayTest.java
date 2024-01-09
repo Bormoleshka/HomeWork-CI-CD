@@ -7,11 +7,11 @@ import org.hamcrest.Matchers;
 
 import org.junit.jupiter.api.Assertions;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import seminar.accuweather.location.Location;
-
-import seminar.accuweather.weather.Weather;
+import org.max.lesson3.home.accuweather.weather.Weather;
+import org.max.lesson3.home.accuweather.location.Location;
 
 
 
@@ -30,7 +30,7 @@ import static org.hamcrest.Matchers.lessThan;
 @Epic(value = "Тестирование API https://developer.accuweather.com/accuweather-forecast-api/apis")
 
 @Feature(value = "Домашняя работа 6")
-public class ForecastsFiveDaysTest extends AccuweatherAbstractTest {
+
 
 
 public class GetWeather5DayTest extends AccuweatherAbstractTest {
@@ -62,3 +62,4 @@ public class GetWeather5DayTest extends AccuweatherAbstractTest {
 
    }
 }
+
