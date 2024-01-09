@@ -1,3 +1,4 @@
+package org.max.lesson3.home.accuweather;
 import io.restassured.http.Method;
 import io.qameta.allure.*;
 import org.hamcrest.Matchers;
