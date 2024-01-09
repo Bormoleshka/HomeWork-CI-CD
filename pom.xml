@@ -120,6 +120,7 @@
                 <version>2.12.0</version>
                 <configuration>
 
+                    //эту строку надо закомментировать     
                     <reportVersion>2.4.1</reportVersion>
                     <!-- Добавим адрес директории для генератора отчета -->
                     <buildDirectory>C:\Users\Владислав\IdeaProjects\AutoTestsSeminar6\</buildDirectory>
